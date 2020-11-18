@@ -75,7 +75,7 @@ section '.data' data readable writable
         message db "Welocme to calculator V1.2(press any key...)",0
         lines db 10,"----------------------",0
         res_message db 10,"Result is: ",0
-        main_message db 10,"Enter your operation and finish it with '=': "
+        main_message db 10,"Enter your operation and finish it with '=': ",0
 
         num1 dd 0
         num2 dd 0
