@@ -1,7 +1,7 @@
 format PE64 console 4.0
 entry start
 
-include 'C:\Users\vl\Downloads\INCLUDE\win64a.inc'
+include '../Fasm\INCLUDE\win64a.inc'
 
 section '.text' code executable
 start:
